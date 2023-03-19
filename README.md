@@ -1,2 +1,4 @@
 # RestfulTestify
-RestfulTestify is an API testing framework designed to test REST APIs and WebSocket connections using Typescript, Jest, and supertest. 
+RestfulTestify is an API testing framework designed to test REST APIs and WebSocket connections using Typescript, Jest, and supertest. It allows users to define their test cases and test data in YAML configuration files, which are then processed by the framework to generate Jest tests. RestfulTestify also supports multiple test data using the it.each function. Additionally, RestfulTestify provides a service API with an ExpressJS web UI for manipulating configuration and data files.
+
+The framework's modular design allows for easy integration with other testing tools and processes, such as GitHub Actions for continuous integration and deployment, and Jest HTML reporter for generating test reports. Overall, RestfulTestify provides a scalable and efficient solution for API testing with a user-friendly interface for both developers and testers.
